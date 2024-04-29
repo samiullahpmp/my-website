@@ -1,0 +1,8 @@
+// JavaScript Document
+data =[ 
+	'{question: "The Plaka is the oldest quarter of which city?"", answers:{a:"Athens", b:"Progue", c;"Rome",d:"Vienna"}, correctAnswer:"a"}',
+	'{question: "Who was the golden era bodybuider>", answers:{a:"Louis", b:"Arnold", c;"Mike",d:"Ronnie"}, correctAnswer:"b"}',
+	'{question: "Who is the Father of Genetic", answers:{a:"Darwin", b:"Ali", c;"Mendal",d:"Jessy"}, correctAnswer:"c"}', 
+	'{question: "Which country lost WW2", answers:{a:"USA", b:"England", c;"China",d:"Japan"}, correctAnswer:"d"}', 
+	'{question: "Pakistan is in which continent", answers:{a:"Asia", b:"Australia", c;"Africa",d:"Americas"}, correctAnswer:"a"}' 
+];

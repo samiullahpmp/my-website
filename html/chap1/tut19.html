@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Height, Width borders and backgrounds</title>
+<style>
+#firstPara{
+	background:red;
+	height:100px;
+	width:455px;
+	/*border-color:green;*/
+	border-width:4x;
+	border-style:solid;
+	border-radius:13px;
+}
+
+#secondPara{
+	background:green;
+	height:100px;
+	width:455px;
+	border-top: 2px solid violet;
+	border-right: 2px solid #9F0;
+	border-bottom: 2px solid #F30;
+	border-left: 2px solid;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:14px
+
+}
+
+#thirdpara
+{
+	border:2px solid red;
+	height:200px;
+	width:600px;
+	background-image: url('img/aol.png');
+	background-repeat:no-repeat;	/* no repeat-x and repeat-y will repeat on respective axis*/
+	background-position:center center;
+}
+</style>
+</head>
+
+<body>
+
+<h3>This is heading</h3>
+<p id="firstPara">this is paragraph</p>
+
+<h3>This is second heading</h3>
+<p id="secondPara">this is second paragraph</p>
+
+<h3>This is third heading</h3>
+<p id="thirdpara"
+>this is third paragraph</p>
+</body>
+</html>
